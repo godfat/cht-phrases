@@ -5,7 +5,7 @@ Here's the list of sources at the moment:
 
 1. godfat's custom phrases from Microsoft 新注音 98a
 2. godfat's custom phrases from Yahoo KeyKey
-3. Any source would the license allow
+3. Any source which the license allows
 
 ## Goal
 

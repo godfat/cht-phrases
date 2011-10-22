@@ -13,3 +13,9 @@ Here's the list of sources at the moment:
 * Core phrases should contain only traditional phrases, excluding
   people names, location names, etc.
 * People names and location names should be separated
+
+## Ultimate Goal
+
+* Serves as phrases modules into [小麥注音輸入法][]
+
+[小麥注音輸入法]: https://github.com/mjhsieh/McBopomofo

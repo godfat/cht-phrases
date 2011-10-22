@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-puts($stdin.read.lines.map{ |l|
+result = File.open(ARGV[0]).lines.map{ |l|
   l.gsub(/\-?\d\.\d/, '').gsub(/,|\t|ˉ|　/, ' ').squeeze(' ')
 }.sort{ |lhs, rhs|
   p0, p1 = lhs[/^\p{han}+/], rhs[/^\p{han}+/]
@@ -13,4 +13,8 @@ puts($stdin.read.lines.map{ |l|
   else
     lhs <=> rhs
   end
-}.uniq.join)
+}.uniq.join
+
+File.open(ARGV[0], 'w'){ |f|
+  f.puts(result)
+}

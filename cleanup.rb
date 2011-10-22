@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 puts($stdin.read.lines.map{ |l|
-  l.gsub(/\-?\d\.\d/, '').gsub(/,|\t|　/, ' ').squeeze(' ')
+  l.gsub(/\-?\d\.\d/, '').gsub(/,|\t|ˉ|　/, ' ').squeeze(' ')
 }.sort{ |lhs, rhs|
   p0, p1 = lhs[/^\p{han}+/], rhs[/^\p{han}+/]
   if p0.size == 1 && p1.size == 1

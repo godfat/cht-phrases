@@ -19,3 +19,9 @@ Here's the list of sources at the moment:
 * Serves as phrases modules into [小麥注音輸入法][]
 
 [小麥注音輸入法]: https://github.com/mjhsieh/McBopomofo
+
+## License
+
+This work is licensed under a [Creative Commons Attribution 3.0 Taiwan License][cc].
+
+[cc]: http://creativecommons.org/licenses/by/3.0/tw/

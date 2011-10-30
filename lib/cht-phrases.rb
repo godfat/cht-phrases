@@ -14,6 +14,6 @@ module ChtPhrases
       else
         lhs <=> rhs
       end
-    }.uniq
+    }.uniq{ |p| p[/^\D+/] }
   end
 end

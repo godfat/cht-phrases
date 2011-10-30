@@ -3,7 +3,7 @@
 
 require './lib/cht-phrases'
 
-paths = Dir['share/*.txt']
+paths = if ARGV.empty? then Dir['share/*.txt'] else ARGV end
 
 lines = ChtPhrases.sort_phrases(
           paths.map{ |p| File.read(p).split("\n") }.flatten)

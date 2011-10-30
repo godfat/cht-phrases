@@ -4,7 +4,7 @@ require './lib/cht-phrases'
 
 lines = ChtPhrases.sort_phrases(ARGV.map{|p|File.read(p).split("\n")}.flatten)
 
-File.open('BPMFMappings.occ', 'w'){ |file|
+File.open('BPMFMappings.txt', 'w'){ |file|
   file.puts(lines.join("\n"))
 }
 

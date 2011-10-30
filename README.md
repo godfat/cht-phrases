@@ -22,8 +22,9 @@ Here's the list of sources at the moment:
 
 ## How to use
 
-Run `./bin/build.rb` and you would get _1-4w.occ_ and _BPMFMappings.txt_.
-Append or replace [corresponded files][] in [小麥注音輸入法][]
+Run `./bin/build.rb` and you would get _build/1-4w.occ_ and
+_build/BPMFMappings.txt_. Append or replace [corresponded files][] in
+[小麥注音輸入法][]
 
 [corresponded files]: https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
 

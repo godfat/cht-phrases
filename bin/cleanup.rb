@@ -7,7 +7,7 @@ paths = if ARGV.empty? then Dir['share/*.txt'] else ARGV end
 
 def cleanup file
   result = ChtPhrases.sort_phrases(File.open(file).lines.map{ |l|
-    ll = l.gsub(/\-?\d\.\d/, '').gsub(/,|\t|ˉ|　/, ' ').squeeze(' ').strip
+    ll = l.gsub(/,|\t|ˉ|　/, ' ').squeeze(' ').strip
     ll unless ll.empty?
   }.compact).join("\n")
 

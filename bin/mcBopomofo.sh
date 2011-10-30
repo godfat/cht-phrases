@@ -1,5 +1,6 @@
 #!/bin/sh
 
+./bin/cleanup.rb
 ./bin/build.rb
 
 export PYTHONPATH='/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC'

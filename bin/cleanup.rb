@@ -3,6 +3,8 @@
 
 require './lib/cht-phrases'
 
+paths = Dir['share/*.txt']
+
 def cleanup file
   result = ChtPhrases.sort_phrases(File.open(file).lines.map{ |l|
     ll = l.gsub(/\-?\d\.\d/, '').gsub(/,|\t|ˉ|　/, ' ').squeeze(' ').strip
@@ -14,4 +16,4 @@ def cleanup file
   }
 end
 
-cleanup(ARGV.shift) until ARGV.empty?
+cleanup(paths.shift) until paths.empty?

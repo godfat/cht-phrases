@@ -29,7 +29,7 @@ Run `./bin/build.rb` and you would get:
 
 Append or replace [corresponded files][] in 小麥注音輸入法
 
-[1-4w.occ]: https://github.com/godfat/cht-phrases/raw/master/build/1-4w.occ
+[build/1-4w.occ]: https://github.com/godfat/cht-phrases/raw/master/build/1-4w.occ
 [build/BPMFMappings.txt]: https://github.com/godfat/cht-phrases/raw/master/build/1-4w.occ
 [corresponded files]: https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
 

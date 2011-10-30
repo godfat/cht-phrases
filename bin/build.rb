@@ -14,6 +14,7 @@ File.open('build/BPMFMappings.txt', 'w'){ |file|
 
 File.open('build/1-4w.occ', 'w'){ |file|
   file.puts(lines.map{ |line|
-    "#{line[/\p{han}+/]}\t50"
+    phrase = line[/\p{han}+/]
+    "#{phrase}\t#{phrase.size*10}"
   }.join("\n"))
 }

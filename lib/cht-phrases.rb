@@ -12,7 +12,7 @@ module ChtPhrases
       elsif p1.size == 1
         1
       else
-        lhs <=> rhs
+        -(lhs <=> rhs)
       end
     }.uniq{ |p| p[/^\D+/] }
   end

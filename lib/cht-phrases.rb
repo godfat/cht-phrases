@@ -3,7 +3,7 @@
 module ChtPhrases
   module_function
   def sort_phrases phrases
-    phrases.sort{ |lhs, rhs|
+    phrases.reject{ |l| l.strip.empty? }.sort{ |lhs, rhs|
       p0, p1 = lhs[/^\p{han}+/], rhs[/^\p{han}+/]
       if p0.size == 1 && p1.size == 1
         lhs <=> rhs

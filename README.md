@@ -20,6 +20,13 @@ Here's the list of sources at the moment:
 
 [小麥注音輸入法]: https://github.com/mjhsieh/McBopomofo
 
+## How to use
+
+Run `./bin/build.rb` and you would get _1-4w.occ_ and _BPMFMappings.txt_.
+Append or replace [corresponded files][] in [小麥注音輸入法][]
+
+[corresponded files]: https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution 3.0 Taiwan License][cc].

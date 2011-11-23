@@ -24,13 +24,13 @@ Here's the list of sources at the moment:
 
 Run `./bin/build.rb` and you would get:
 
-* [build/1-4w.occ][]
+* [build/phrase.occ][]
 * [build/BPMFMappings.txt][]
 
 Append or replace [corresponded files][] in 小麥注音輸入法
 
-[build/1-4w.occ]: https://github.com/godfat/cht-phrases/raw/master/build/1-4w.occ
-[build/BPMFMappings.txt]: https://github.com/godfat/cht-phrases/raw/master/build/1-4w.occ
+[build/phrase.occ]: https://github.com/godfat/cht-phrases/raw/master/build/phrase.occ
+[build/BPMFMappings.txt]: https://github.com/godfat/cht-phrases/raw/master/build/BPMFMappings.txt
 [corresponded files]: https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
 
 ## License

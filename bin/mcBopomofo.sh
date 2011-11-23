@@ -8,12 +8,12 @@ cwd=`pwd`
 McBopomofo=$HOME/project/fork/McBopomofo/Source
 
 cd $McBopomofo/Data
-git checkout 1-4w.occ BPMFMappings.txt
+git checkout phrase.occ BPMFMappings.txt
 
 cd $cwd
-cat ./build/1-4w.occ >> $McBopomofo/Data/1-4w.occ
+cat ./build/phrase.occ >> $McBopomofo/Data/phrase.occ
 cat ./build/BPMFMappings.txt >> $McBopomofo/Data/BPMFMappings.txt
-./bin/cleanup.rb $McBopomofo/Data/1-4w.occ
+./bin/cleanup.rb $McBopomofo/Data/phrase.occ
 ./bin/cleanup.rb $McBopomofo/Data/BPMFMappings.txt
 
 cd $McBopomofo
